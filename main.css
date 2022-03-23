@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "gilroy_medium";
+  src: url(./gilroy_medium.ttf);
+}
+@font-face {
+  font-family: "gilroy_regular";
+  src: url(./gilroy_regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 15px;
+}
+.main__container {
+  max-width: 1200px;
+  margin: 15px auto 0 auto;
+}
+.header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0;
+  font-size: 45px;
+  font-family: "gilroy_medium", sans-serif;
+  padding: 10px;
+}
+img {
+  width: 650px;
+  height: 346px;
+  float: right;
+  margin: 5px 0 15px 15px;
+}
+.main__container article {
+  font-family: "gilroy_regular";
+  font-size: 20px;
+}
+.main__container article a {
+  text-decoration: none;
+}
